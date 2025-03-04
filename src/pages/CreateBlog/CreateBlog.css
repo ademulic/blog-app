@@ -1,0 +1,58 @@
+ 
+.create-blog{
+    padding: 10px;
+}
+.create-blog form{ 
+    width: 600px;
+    display: flex;
+    flex-direction: column; 
+    padding: 40px;
+    gap: 30px;
+}
+.create-blog form h2{
+    font-size: 2rem;
+    align-self: center;
+}
+.create-blog form div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    
+     
+}
+.create-blog form label p{
+    font-size: 16px;
+}
+.create-blog form div input{
+    width: 95%;
+    font-size: 16px;
+    padding: 5px;
+    outline: unset;
+}
+.create-blog form textarea{
+    resize: vertical;
+    min-height: 500px;
+    padding: 10px;
+    font-size: 16px;
+    outline: unset;
+}
+.create-blog form button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.create-blog form button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    scale: 1.01;
+}
+.create-blog form button:active{
+   opacity: 0.8;
+}
