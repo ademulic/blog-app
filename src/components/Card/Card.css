@@ -1,0 +1,37 @@
+.card{
+    padding: 30px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer; 
+    height: 300px;
+    display: flex; 
+    gap: 20px; 
+    border-radius: 10px;
+    width: 1000px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    scale: 1.01;
+}
+.card img{
+    object-fit: cover;
+    height: 100%;
+    width: 300px;
+}
+
+@media screen and (max-width:700px) {
+    
+    .card{
+        padding: 0px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        text-align: center;
+        width: unset;
+        overflow: hidden;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+    .card img{
+        width: 100%;
+    }
+}

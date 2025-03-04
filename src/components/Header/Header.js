@@ -1,5 +1,5 @@
 import './Header.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
@@ -18,7 +18,7 @@ const Header = () => {
                 <RxHamburgerMenu />
             </button>
 
-            <h1 className="logo">Logo</h1>
+            <h1 className="logo">TheBlog.com</h1>
 
             {/* Use dynamic class to control open/close state */}
             <nav className={isNavOpen ? "nav-open" : ""}>
@@ -28,7 +28,7 @@ const Header = () => {
 
                 <div className="nav-links">
                     <NavLink to="/" onClick={closeNav}>Home</NavLink>
-                    <NavLink to="#" onClick={closeNav}>New Blog</NavLink>
+                    <NavLink to="/create" onClick={closeNav}>New Blog</NavLink>
                 </div>
 
                 <div className="empty-div"></div>

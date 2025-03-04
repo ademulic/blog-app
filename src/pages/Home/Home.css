@@ -1,0 +1,18 @@
+.home{
+    padding: 20px;
+}
+.blog-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:700px){
+    .blog-list{
+        padding-top: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
