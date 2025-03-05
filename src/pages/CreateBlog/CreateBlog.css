@@ -30,6 +30,13 @@
     font-size: 16px;
     padding: 5px;
     outline: unset;
+    border:none;
+    border-bottom: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+.create-blog form div input:focus{
+    border-bottom: 1px solid orange;
+    color: orange;
 }
 .create-blog form textarea{
     resize: vertical;
@@ -37,24 +44,37 @@
     padding: 10px;
     font-size: 16px;
     outline: unset;
+    border: none;
+    border: 1px solid lightgray;
+    transition: 0.5s ease-in-out;
+}
+.create-blog form textarea:focus{
+    border: 1px solid orange;
+}
+.create-blog form div input:focus,.create-blog form textarea:focus{
+    scale: 1.01;
+    font-size: 18px;
 }
 .create-blog form button{
     background-color: black;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     border: 1px solid black;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    font-size: 20px;
 }
 .create-blog form button:hover{
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid orange;
+    color: orange;
     scale: 1.01;
 }
 .create-blog form button:active{
-   opacity: 0.8;
+  
+   color: white;
+   background-color: orange;
 }
 
 @media screen and (max-width:543px) {

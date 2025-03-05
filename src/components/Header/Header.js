@@ -1,6 +1,6 @@
 import './Header.css';
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
@@ -10,7 +10,7 @@ const Header = () => {
     const toggleNav = () => setIsNavOpen(!isNavOpen);
     const closeNav = () => setIsNavOpen(false);
 
-   
+    const navigate = useNavigate();
 
     return (
         <header>
@@ -18,7 +18,7 @@ const Header = () => {
                 <RxHamburgerMenu />
             </button>
 
-            <h1 className="logo">TheBlog.com</h1>
+            <h1 className="logo" onClick={()=>{navigate('/');}}>TheBlog.com</h1>
 
             {/* Use dynamic class to control open/close state */}
             <nav className={isNavOpen ? "nav-open" : ""}>

@@ -14,6 +14,9 @@ header {
     border-bottom: 1px solid orange;
 }
  
+header .logo{
+    cursor: pointer;
+}
 header .burger-menu,
 header .close-menu {
     display: none;
@@ -68,7 +71,9 @@ header .nav-links a:hover {
         background-color: orange;
         color: white;
     }
-
+    header h1{
+        cursor: pointer;
+    }
     nav {
         /* Hidden off-screen by default */
         display: flex;
