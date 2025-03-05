@@ -56,3 +56,10 @@
 .create-blog form button:active{
    opacity: 0.8;
 }
+
+@media screen and (max-width:543px) {
+    .create-blog form{ 
+        width: 350px;
+        padding: 0;
+    }    
+}

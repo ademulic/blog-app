@@ -2,3 +2,6 @@
     height: 81vh;
     justify-content: center;
 }
+.not-found-section span{
+    font-size: 60px;
+}

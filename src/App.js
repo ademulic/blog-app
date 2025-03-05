@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import CreateBlog from './pages/CreateBlog/CreateBlog';
 import NotFound from './pages/NotFound/NotFound';
+import BlogDetails from './pages/BlogDetails/BlogDetails';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home/>}/> 
         <Route path='/create' element={<CreateBlog/>}/>  
         <Route path='/*' element={<NotFound/>}/>
+        <Route path='/blogs/:id' element={<BlogDetails/>}/>
       </Routes> 
        <Footer/>
 

@@ -7,7 +7,11 @@ header {
     align-items: center;
     justify-content: space-around;
     font-weight: 300;
-    position: relative; /* Needed to position mobile nav absolutely within */
+    top: 0;
+    position: sticky; /* Needed to position mobile nav absolutely within */
+    background-color: white;
+    z-index: 2;
+    border-bottom: 1px solid orange;
 }
  
 header .burger-menu,
@@ -35,7 +39,7 @@ header .nav-links a {
 }
 
 header .nav-links a:hover {
-    background-color: black;
+    background-color: orange;
     color: white;
 }
 
@@ -61,7 +65,8 @@ header .nav-links a:hover {
 
     header .burger-menu:active,
     header .close-menu:active {
-        background-color: grey;
+        background-color: orange;
+        color: white;
     }
 
     nav {

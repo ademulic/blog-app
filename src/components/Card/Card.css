@@ -18,15 +18,25 @@
     width: 300px;
 }
 
-@media screen and (max-width:700px) {
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+     
+}
+.card:hover > .card-body h2{
+    color: orange;
+}  
+@media screen and (max-width:950px) {
     
     .card{
         padding: 0px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         flex-direction: column;
         text-align: center;
         width: unset;
         overflow: hidden;
+        height:450px;
     }
     .card h1{
         font-size: 20px;
@@ -35,3 +45,8 @@
         width: 100%;
     }
 }
+@media screen and (max-width:615px){
+    .card{
+        height:500px;
+    }
+} 

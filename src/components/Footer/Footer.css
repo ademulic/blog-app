@@ -2,7 +2,7 @@ footer{
     display: flex; 
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: orange;
     color: white;
     padding: 50px;
 }
@@ -11,5 +11,5 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{ 
-    color: orange;
+    color: black;
 }
