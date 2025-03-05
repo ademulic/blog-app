@@ -17,7 +17,7 @@ const CreateBlog = () => {
                 <label htmlFor="blog-body"><p></p>Body</label>
                 <textarea id="blog-body" placeholder='Enter blog body...'></textarea>
                 
-                <button>Submit</button>
+                <button type='submit'>Submit</button>
             </form>            
             
         </section>
