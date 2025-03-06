@@ -3,13 +3,17 @@ import './CreateBlog.css';
 import { BounceLoader } from "react-spinners";
 import { useNavigate } from 'react-router-dom';
 const CreateBlog = () => {
+    //Elements to be saved into the app
     const [users, setUsers] = useState(null);
     const [title, setTitle] = useState(''); 
     const [thumbnail, setThumbnail] = useState('');
     const [author, setAuthor] = useState('Ryu');
     const [body,setBody] = useState('');
+
     const [loading, setLoading]= useState(false);
+
     const navigate = useNavigate();
+
     useEffect(()=>{
         fetch('http://localhost:8000/users')
         .then(res=>{
