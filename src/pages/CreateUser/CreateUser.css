@@ -1,0 +1,75 @@
+.create-user{
+    padding: 10px;
+}
+.create-user form{ 
+    width: 600px;
+    display: flex;
+    flex-direction: column; 
+    padding: 40px;
+    gap: 30px;
+}
+.create-user form h2{
+    font-size: 2rem;
+    align-self: center;
+}
+
+
+.create-user form div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    
+     
+}
+.create-user form label p{
+    font-size: 16px;
+}
+.create-user form div input{
+    width: 80%;
+    font-size: 16px;
+    padding: 5px;
+    outline: unset;
+    border:none;
+    border-bottom: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+.create-user form div input:focus{
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+
+.create-user form button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 20px;
+}
+.create-user form button:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    scale: 1.01;
+}
+.create-user form button:active{
+  
+   color: white;
+   background-color: orange;
+}
+form span{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+}
+@media screen and (max-width:543px) {
+    .create-user form{ 
+        width: 350px;
+        padding: 0;
+    }    
+}

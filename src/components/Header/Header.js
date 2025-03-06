@@ -29,6 +29,7 @@ const Header = () => {
                 <div className="nav-links">
                     <NavLink to="/" onClick={closeNav}>Home</NavLink>
                     <NavLink to="/create" onClick={closeNav}>New Blog</NavLink>
+                    <NavLink to="/create-user" onClick={closeNav}>Sign Up</NavLink>
                 </div>
 
                 <div className="empty-div"></div>

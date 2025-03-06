@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import CreateBlog from './pages/CreateBlog/CreateBlog';
 import NotFound from './pages/NotFound/NotFound';
 import BlogDetails from './pages/BlogDetails/BlogDetails';
+import CreateUser from './pages/CreateUser/CreateUser';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
         <Route path='/' element={<Home/>}/> 
         <Route path='/create' element={<CreateBlog/>}/>  
         <Route path='/*' element={<NotFound/>}/>
-        <Route path='/blogs/:id' element={<BlogDetails/>}/>
+        <Route path='/blogs/:id' element={<BlogDetails/>}/> 
+        <Route path='/create-user' element={<CreateUser/>}/>
       </Routes> 
        <Footer/>
 

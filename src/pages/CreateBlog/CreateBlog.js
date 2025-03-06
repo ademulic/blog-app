@@ -63,7 +63,8 @@ const CreateBlog = () => {
                         type="text" 
                         placeholder="Enter Blog title..." 
                         value={title} 
-                        onChange={(e)=>setTitle(e.target.value)}
+                        required
+                        onChange={(e)=>setTitle(e.target.value) }
                     /> 
                 </div>
                 <div>
@@ -73,6 +74,7 @@ const CreateBlog = () => {
                         type="text" 
                         placeholder="Paste or type an image url from the internet..." 
                         value={thumbnail}
+                        required
                         onChange={(e)=>setThumbnail(e.target.value)}
                     /> 
                 </div>
@@ -90,6 +92,7 @@ const CreateBlog = () => {
                     id="blog-body" 
                     placeholder='Enter blog body...' 
                     value={body}
+                    required
                     onChange={(e)=>setBody(e.target.value)}
                 ></textarea>
                 
