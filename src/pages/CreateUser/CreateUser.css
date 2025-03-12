@@ -1,5 +1,6 @@
 .create-user{
     padding: 10px;
+    justify-content: center;
 }
 .create-user form{ 
     width: 600px;

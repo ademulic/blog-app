@@ -1,7 +1,7 @@
 {
   "blogs": [
     {
-      "id": 0,
+      "id": "0",
       "title": "How to create a Website",
       "author": "Mario",
       "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
@@ -9,26 +9,12 @@
       "thumbnail": "https://images.pexels.com/photos/8972791/pexels-photo-8972791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "id": 1,
+      "id": "1",
       "title": "How to make video games",
       "author": "Peach",
       "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptate alias iure sit nisi cum ducimus temporibus quisquam, sunt fuga, modi tempora animi quam ipsum minima necessitatibus accusamus repudiandae voluptas!",
       "rating": 2,
       "thumbnail": "https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 2,
-      "title": "Who is Mario?",
-      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur sint tempore. Ea exercitationem harum dolorum veniam aperiam eius, quasi numquam illo dolores nobis quia animi quibusdam quidem quam maxime aspernatur cumque at? Id, delectus provident! Error enim, inventore fugit dolorem, maiores repudiandae aperiam nobis obcaecati sapiente quia possimus molestias?",
-      "rating": 3,
-      "thumbnail": "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 3,
-      "title": "Youtube, broadcast yourself",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, enim?",
-      "rating": 4,
-      "thumbnail": "https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "6a62",
@@ -43,38 +29,31 @@
       "thumbnail": "https://images.pexels.com/photos/30462124/pexels-photo-30462124/free-photo-of-scenic-river-valley-in-the-himalayan-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "author": "Bowser",
       "body": "Yeah, this is Bowser speaking, do you have a problem with that?!"
-    },
-    {
-      "id": "f577",
-      "title": "This is my App pretty much done and I love it",
-      "thumbnail": "https://images.pexels.com/photos/30710110/pexels-photo-30710110/free-photo-of-scenic-view-of-chefchaouen-s-blue-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "author": "",
-      "body": "I just realized that I need to edit my project such that the first option is actually set."
     }
   ],
   "users": [
     {
-      "id": 0,
+      "id": "0",
       "name": "Ryu"
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "Mario"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Chun Li"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Bowser"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Samus"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Peach"
     },
     {
